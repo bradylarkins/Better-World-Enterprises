@@ -1,10 +1,13 @@
 #navtext{
-    font-family:'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
-    font-size: 38px;
+    font-size: 30px; 
     margin: 0px;
+    margin-left: 35px;
     vertical-align:bottom;
     line-height:normal;   
+    color:rgb(211, 211, 211);
+    /* Original Dimensions - Navbar text 38px, color (none) font-times new romans (no margin left was there prior) spacing needs to be adjusted accordingly */
   }
   #img1{
     width: 100%;
@@ -17,7 +20,7 @@
   }
   .row{
     width: 100%;
-    text-align: center;
+    text-align: 
 
   }
   .column {
@@ -35,3 +38,33 @@
     
     
   }
+  .border img {
+    transition: .5s ease;
+    }
+    
+    .border img:hover{
+    box-shadow: 0 0 0 5px #808080;
+    transition: .5s ease;
+    }
+#row2{
+  padding: 10px;
+  padding: right 0px; ;
+
+}
+#properties{
+  margin-top: 100px;
+}
+.rectangle {
+  height: 25px;
+  width: 100%;
+  background-color: #555;
+}
+#col2{
+  text-align: center;
+ 
+}
+#bottom{
+  font-size: 40px;
+  padding-top: 49px;
+  font-style: bold;
+}
