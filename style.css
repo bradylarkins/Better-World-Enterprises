@@ -57,7 +57,7 @@
 .rectangle {
   height: 25px;
   width: 100%;
-  background-color: #555;
+  background-color: #808080;
 }
 #col2{
   text-align: center;
@@ -68,3 +68,23 @@
   padding-top: 49px;
   font-style: bold;
 }
+.callnow{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("favicon.ico/default.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+ 
