@@ -17,6 +17,8 @@
   #explore{
     font-size: 48px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+  
   }
   .row{
     width: 100%;
@@ -98,5 +100,11 @@
 }
 #wave{
  margin-bottom: 0px;
- position: ;
+ background:(90deg, rgba(9,121,80,0.6783088235294117) 35%, rgba(0,212,255,1) 100%);
+}
+#navtext{
+  font-family: 'Raleway', sans-serif;
+}
+#wave{
+  opacity: 35%;
 }
