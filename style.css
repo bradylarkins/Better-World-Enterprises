@@ -1,12 +1,11 @@
 #navtext{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     font-size: 30px; 
     margin: 0px;
-   
     vertical-align:bottom;
     line-height:normal;   
-    color: white
+  
     /* Original Dimensions - Navbar text 38px, color (none) font-times new romans (no margin left was there prior) spacing needs to be adjusted accordingly */
   }
   #img1{
@@ -18,11 +17,15 @@
     font-size: 48px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    color: white;
+    top: 30px;
+    left: 30%;
+ 
   
   }
   .row{
     width: 100%;
-    text-align: 
+    text-align:;
 
   }
   .column {
@@ -100,11 +103,69 @@
 }
 #wave{
  margin-bottom: 0px;
- background:(90deg, rgba(9,121,80,0.6783088235294117) 35%, rgba(0,212,255,1) 100%);
+ background:(90deg  rgba(9,121,80,0.6783088235294117) 35% ,rgba(0,212,255,1) 100% );
 }
 #navtext{
   font-family: 'Raleway', sans-serif;
+  color: white;
+  opacity: 100%;
 }
 #wave{
   opacity: 35%;
 }
+#back{
+  background-color: #808080;
+}
+.navbar-default{
+  background-color: black;
+  border: none;
+  opacity: 65%
+
+}
+.nav-pills > li.active > a{
+  color: red;
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: none;
+}
+
+.image2 {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  border:none;
+
+}
+.btn-1:hover {
+  background: rgba($red, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+  rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  // display: block;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
