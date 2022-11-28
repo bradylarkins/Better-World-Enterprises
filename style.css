@@ -81,18 +81,18 @@
 
 .parallax {
     /* The image used */
-    background-image: url("favicon.ico/image-asset.jpg");
-    height: 1000px;
-    width: 2000px;
+    background-color: black;
+    height: 100px;
+    width: 33%;
   
     /* Set a specific height */
     min-height: 500px; 
-  
+    
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
+  
+
+    
   }
  #rec{
   height: 70px;
@@ -144,28 +144,3 @@
   border:none;
 
 }
-.btn-1:hover {
-  background: rgba($red, 0);
-  font-weight: 900;
-  letter-spacing: 1px;
-  
-  rect {
-    stroke-width: 5;
-    stroke-dasharray: 15, 310;
-    stroke-dashoffset: 48;
-    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-  }
-}
-.btn {
-  color: #fff;
-  cursor: pointer;
-  // display: block;
-  font-size:16px;
-  font-weight: 400;
-  line-height: 45px;
-  margin: 0 0 2em;
-  max-width: 160px; 
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 100%; 
