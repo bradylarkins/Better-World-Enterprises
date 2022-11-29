@@ -122,9 +122,7 @@
   opacity: 65%
 
 }
-.nav-pills > li.active > a{
-  color: red;
-}
+
 .parent {
   position: relative;
   top: 0;
@@ -144,3 +142,7 @@
   border:none;
 
 }
+
+
+
+
