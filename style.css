@@ -4,7 +4,8 @@
     font-size: 30px; 
     margin: 0px;
     vertical-align:bottom;
-    line-height:normal;   
+    line-height:normal;
+       
   
     /* Original Dimensions - Navbar text 38px, color (none) font-times new romans (no margin left was there prior) spacing needs to be adjusted accordingly */
   }
@@ -25,7 +26,6 @@
   }
   .row{
     width: 100%;
-    text-align:;
 
   }
   .column {
@@ -57,7 +57,7 @@
 
 }
 #properties{
-  margin-top: 100px;
+  margin-top: 10px;
 }
 .rectangle {
   height: 25px;
@@ -79,26 +79,15 @@
     color: gray;
 }
 
-.parallax {
-    /* The image used */
-    background-color: black;
-    height: 100px;
-    width: 33%;
-  
-    /* Set a specific height */
-    min-height: 500px; 
-    
-    /* Create the parallax scrolling effect */
-  
-  
 
-    
-  }
- #rec{
-  height: 70px;
-  width: 100%;
-  background-color: #808080;
-  opacity: 15%;
+ .rec{
+  height: 500px;
+  width: 50%;
+  background-color: black;
+  opacity: 65%;
+  position: relative;
+  left: 25%
+  
 
 }
 #wave{
@@ -115,11 +104,15 @@
 }
 #back{
   background-color: #808080;
+  margin-top: 0%;
+  padding: 0px;
+  
 }
 .navbar-default{
   background-color: black;
   border: none;
-  opacity: 65%
+  opacity: 65%;
+  
 
 }
 
@@ -142,7 +135,17 @@
   border:none;
 
 }
+#navimage2{
+  height: 100px;
+  width: 100%;
+  
+}
 
+#myCarousel{
+  padding: 0%;
+  width: 100%;
+  max-width: 100%;
+}
 
 
 
