@@ -81,12 +81,14 @@
 
 
  .rec{
-  height: 500px;
+  border-radius: 25px;
+  height: 1600px;
   width: 50%;
   background-color: black;
-  opacity: 65%;
+  opacity: 85%;
   position: relative;
   left: 25%
+  
   
 
 }
@@ -146,6 +148,37 @@
   width: 100%;
   max-width: 100%;
 }
+#paratext{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Raleway";
+  line-height: 200%;
+}
+#paratitle{
+  color: white;
+  font-size: 54px;
+  text-align: center;
+  font-family: "Raleway";
+  padding: 10px;
+}
+#paralimage{
+  height: 75px;
+  width:  auto;
+  
+}
+#sent1{
+padding-top: 20px;
 
-
+}
+@media only screen and (max-width: 900px) {
+  body {
+    background-color:red;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rebeccapurple;
+  }
+}
 
