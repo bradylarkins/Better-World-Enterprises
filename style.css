@@ -82,16 +82,14 @@
 
  .rec{
   border-radius: 25px;
-  height: 1600px;
+  height: 700px;
   width: 50%;
   background-color: black;
   opacity: 85%;
   position: relative;
   left: 25%
-  
-  
-
 }
+
 #wave{
  margin-bottom: 0px;
  background:(90deg  rgba(9,121,80,0.6783088235294117) 35% ,rgba(0,212,255,1) 100% );
@@ -128,6 +126,7 @@
   top: 0;
   left: 0;
   border: none;
+ 
 }
 
 .image2 {
@@ -150,10 +149,15 @@
 }
 #paratext{
   color: white;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
   font-family: "Raleway";
   line-height: 200%;
+  position: absolute;
+  top: 30%;
+  padding: px;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 #paratitle{
   color: white;
@@ -162,15 +166,51 @@
   font-family: "Raleway";
   padding: 10px;
 }
-#paralimage{
-  height: 75px;
-  width:  auto;
-  
-}
+
 #sent1{
 padding-top: 20px;
 
 }
+#navb {
+
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navb a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  opacity: 0%;
+}
+#frame{
+  height: 500px;
+  width: 100%;
+  
+}
+#palimage{
+  opacity: 15%;
+ position: relative;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+ 
+
+  
+  
+}
+
+
 @media only screen and (max-width: 900px) {
   body {
     background-color:red;
@@ -182,3 +222,22 @@ padding-top: 20px;
   }
 }
 
+.aln {
+
+}
+iframe{
+  ;
+  height: 400px;
+  width:800px;
+  outline-color: black;
+  outline-width:20px;
+}
+.carousel-caption{
+  background-color: black;
+  opacity: 85%;
+  font-family: "Raleway";
+}
+#get{
+  width: 640px;
+  height: 734px;
+}
