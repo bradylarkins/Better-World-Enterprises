@@ -173,7 +173,7 @@ padding-top: 20px;
 }
 #navb {
 
-  position: fixed; /* Make it stick/fixed */
+  
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
@@ -249,11 +249,16 @@ margin-top: 100px;
 #calc{
   margin-top: 82px;
 }
-#top{
-  opacity: 100%;
-}
+
+
 #maps{
   width: 100%;
-  height: 10000px;
-  margin-top: 100px;
+  height: 1000px;
+  margin-top: -20px;
+ 
+}
+.navbar-toggler{
+  
+  position: relative;
+  right: 40%;
 }
